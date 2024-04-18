@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UCST Library</title>
+    <link rel="stylesheet" href="custom.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="/node_modules/animate.css/animate.min.css" />
+  </head>
+  <body>
+    <session style="position: sticky; top: 0; z-index: 2001">
+      <nav class="navbar navbar-expand-lg" style="background-color:#FFD700;">
+        <div class="container-fluid px-3">
+          <a class="navbar-brand fw-bolder" href="#">UCST Library</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                All Books
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="Books.html">Books</a></li>
+                  <li>
+                    <a class="dropdown-item" href="Textbooks.html">Text Books</a>
+                  </li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Aboutus.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact _us.html">Contact</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Another action</a>
+                  </li>
+                  <li><hr class="dropdown-divider" /></li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </session>
+
+    <section>
+      <div class="container-fluid">
+        <div class="row pl-2 mt-3">
+          <div class="col-3">
+            <div class="card border-0">
+              <div class="card-title">
+                <h2 class="text-body-emphasis">Collections</h2>
+              </div>
+              <div class="card-body category">
+                <ul class="nav nav-pills nav-fill flex-column ">
+                  <li class="nav-item">
+                    <a class="nav-link  text-start active-menu text-white" href="#">History</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-start" href="#">Horror/Thriller</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-start" href="#">Humor</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-start" href="#">Romance</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-start" href="#">Adventure</a>
+                  </li>
+                 
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-9">
+            <session id="trending">
+              <div class="">
+                <div class="card border-0">
+                  <div class="card-title">
+                    <div class="row justify-content-between">
+                      <div class="col-6">
+                        <h2> Books (Monthly)</h2>
+                      </div>
+                      <div class="col-6">
+                        <form class="d-flex" role="search">
+                          <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search"
+                          />
+                          <button class="btn btn-outline-secondary" type="submit">
+                            Search
+                          </button>
+                        </form>
+                      </div>
+                    </div>
+                    <hr />
+                  </div>
+                  <div class="card-body">
+                    <div class="row justify-content-between">
+                      <div
+                        class="card p-2 mb-3 wow animate__fadeInLeft"
+                        style="width: 18rem"
+                      >
+                        <img
+                          src="images/1.jpg"
+                          class="card-img-top"
+                          alt="..."
+                          height="270"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="card p-2 mb-3 wow animate__fadeInTopLeft"
+                        style="width: 18rem"
+                      >
+                        <img
+                          src="images/2.jpg"
+                          class="card-img-top"
+                          alt="..."
+                          height="270"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="card p-2 mb-3 wow animate__fadeInTopRight"
+                        style="width: 18rem"
+                      >
+                        <img
+                          src="images/3.jpg"
+                          class="card-img-top"
+                          alt="..."
+                          height="270"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                        </div>
+                      </div>
+                      <div
+                        class="card p-2 mb-3 wow animate__fadeInRight"
+                        style="width: 18rem"
+                      >
+                        <img
+                          src="images/1.jpg"
+                          class="card-img-top"
+                          alt="..."
+                          height="270"
+                        />
+                        <div class="card-body">
+                          <p class="card-text">
+                            Some quick example text to build on the card title
+                            and make up the bulk of the card's content.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </session>
+          </div>
+        </div>
+      </div>
+    </section>
+     <div class="absolute w-100 mt-5" style="bottom: 0;height: 35px; background-color:#d1d1d1;">
+            <center class="mt-2">
+              <p class="copy p-2" style="font-size: 15px;">  © Copyright 2024 Online Burma/Myanmar Library. All rights reserved.</p>
+            </center>
+        </div>
+    
+
+    <script src="/node_modules/scrollreveal/dist/scrollreveal.min.js"></script>
+
+    <script src="/node_modules/wow.js/dist/wow.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script type="text/javascript">
+      wow = new WOW({
+        boxClass: "wow", // default
+        animateClass: "animate__animated", // default
+        offset: 2, // default
+        mobile: true, // default
+        live: true, // default
+      });
+      wow.init();
+
+      var node = document.querySelectorAll(".animate__animated");
+
+      const myCarouselElement = document.querySelector("#myCarousel");
+
+      const carousel = new bootstrap.Carousel(myCarouselElement, {
+        interval: 1000,
+        touch: false,
+      });
+
+      //   ScrollReveal().reveal(node);
+    </script>
+  </body>
+</html>

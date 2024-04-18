@@ -1,0 +1,20 @@
+body{
+    background-color: #C4FCEF;
+}
+.category a {
+  display: inline-block;
+  color: rgb(12, 12, 12);
+  font-weight: 700;
+    text-decoration: none;
+  margin-bottom: 7px;
+  margin-right: 10px;
+}
+
+.category a span {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid blueviolet;
+  padding: 0px 10px;
+  /* padding: 2px; */
+  border-radius: 20px;
+}

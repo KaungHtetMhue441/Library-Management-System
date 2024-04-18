@@ -1,0 +1,16 @@
+@charset "ISO-8859-1";
+
+.profile-image-container {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: aquamarine;
+}
+
+/* Place holder image in create */
+.profile-container {
+  width: 250px;
+  height: 250px;
+}

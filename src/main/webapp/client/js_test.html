@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>8kk
+    k 
+    kk
+</head>
+<body>
+    <h2> Parent and Child</h2>
+	<div id="container">
+		<h1>This is heading</h1>
+		<p id="demo">This is a paragraph section.</p>
+		<a href="#">Go to Home</a>
+	</div>
+	<script>
+	var pElement=document.getElementById("demo");
+	pElement.parentElement.style.backgroundColor="navy";	//select the <p> element’s parent
+	var divElement=document.getElementById("container");
+	divElement.firstElementChild.style.color="red";	//select the first element child of div element
+	divElement.lastlementChild.style.color="Orange";	//select the last element child of div element
+	</script>
+
+</body>
+</html>
